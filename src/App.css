@@ -2,6 +2,10 @@ body {
     background-color: #282727;
 }
 
+  a {
+    text-decoration: none;
+  }
+
   .App {
     background-color: #18191a;
     min-height: 100vh;
@@ -118,7 +122,7 @@ body {
     background-color: #474444;
   }
 
-.react {
+.react, .by {
   padding-top: 0px;
   font-size: 15px;
 }
