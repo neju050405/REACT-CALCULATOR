@@ -1,0 +1,130 @@
+body {
+    background-color: #282727;
+}
+
+  .App {
+    background-color: #18191a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+
+  .Calculator {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    border: 2px solid rgb(76, 74, 74);
+    border-radius: 5px;
+    padding: 0px 10px;
+    height: 450px;
+    width: 330px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    height: 80%;
+  }
+
+  .Screen{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    }
+  .Screen input {
+    height: 40px;
+    width: 100%;
+    background-color: #3b3a3a;
+    border: 2px rgb(0, 0, 0) solid;
+    font-size: 35px;
+    text-align: right;
+  }
+
+  .Buttons{
+    width: 100%;
+    padding-top: 40px
+  }
+
+  .Button div {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  input {
+    width: 50px;
+    height:50px;
+    font-size: 20px;
+    background-color: #6e737b;
+    border: 2.5px solid #282c34;
+    border-radius: 4px;
+    transition: 300ms ease;
+  }
+
+  input[type='button']:hover {
+    background-color: #54565a;
+  }
+
+  input[type='text']:hover {
+    background-color: #343434;
+  }
+
+  #equal{
+    width: 100px;
+    background-color: green;
+  }
+
+  #equal:hover{
+    background-color: rgb(1, 109, 1);
+  }
+
+  #del {
+    position: relative;
+    top: 1.5px;
+    font-weight: 600;
+    background-color: rgba(220, 14, 14, 0.763);
+  }
+
+  #del:hover {
+    background-color: rgba(181, 13, 13, 0.763);
+  }
+
+  #C {
+    background-color: rgb(154, 7, 29);
+  }
+
+  #C:hover {
+    background-color: rgb(126, 7, 25);
+  }
+
+  #op {
+    background-color: #5b5757;
+  }
+
+  #op:hover {
+    background-color: #474444;
+  }
+
+.react {
+  padding-top: 0px;
+  font-size: 15px;
+}
+
+img {
+  width: 20px;
+  position: relative;
+  top: 5px;
+}
