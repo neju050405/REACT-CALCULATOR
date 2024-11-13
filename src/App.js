@@ -45,6 +45,8 @@ function App() {
         </form>
       </div>
       <div className="react">Created with React.JS <img src={reactLogo} alt="react logo"/></div>
+      <div className="by">@Developed by <a href="https://github.com/neju050405">@neju050405</a></div>
+
     </div>
   );
 }
