@@ -122,9 +122,13 @@ body {
     background-color: #474444;
   }
 
-.react, .by {
+.react {
   padding-top: 0px;
   font-size: 15px;
+}
+
+.by {
+  padding-top 20px;
 }
 
 img {
